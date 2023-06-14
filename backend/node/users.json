@@ -1,0 +1,12 @@
+[
+    {
+        "id": "480de1aa-e806-45a8-8046-562ba42f78e5",
+        "name": "Fulano",
+        "email": "fulano@email.com"
+    },
+    {
+        "id": "5331bb51-c1e6-423c-b863-15f12a781780",
+        "name": "Ciclano",
+        "email": "ciclano@email.com"
+    }
+]

@@ -1,0 +1,47 @@
+POST http://localhost:4001/user
+content-type: application/json
+
+{
+    "name":"Fulano",
+    "email":"fulano@email.com"
+
+}
+
+###
+POST http://localhost:4001/user
+content-type: application/json
+
+{
+    "name":"Beltrano",
+    "email":"beltrano@email.com"
+
+}
+
+###
+POST http://localhost:4001/user
+content-type: application/json
+
+{
+    "name":"Ciclano",
+    "email":"ciclano@email.com"
+
+}
+
+###
+GET http://localhost:4001/user
+
+###
+GET http://localhost:4001/user/c15fa4a8-1caf-432f-ab00-16f16299ab32
+
+###
+PUT http://localhost:4001/user/c15fa4a8-1caf-432f-ab00-16f16299ab32
+content-type: application/json
+
+{
+    "name":"Beltrano Alterado",
+    "email":"beltrano@email.com"
+
+}
+
+###
+DELETE http://localhost:4001/user/c15fa4a8-1caf-432f-ab00-16f16299ab32
